@@ -1,0 +1,17 @@
+body{
+  background-size:100% auto;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+   background: rgb(0, 0, 0); /* This is for ie8 and below */
+   background: rgba(255, 255, 255, 0.5);
+   height: 34px;
+}
+
+#imagen{
+  width: 100%;
+  height: 100%;
+  background-size:100% auto;
+  background-repeat: no-repeat;
+}

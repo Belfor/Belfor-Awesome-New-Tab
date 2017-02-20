@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Belfor Awensome newtab chrome extension",
+  "options_page": "opciones.html",
+
+  "description": "Cambia la apariencia de una nueva ventana de chrome",
+  "version": "1.0",
+  "permissions": [
+	  "management",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+	},
+  "icons": { "16": "images/faviconx16.png",
+           "48": "images/faviconx48.png",
+          "128": "images/faviconx128.png" }
+}
