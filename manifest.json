@@ -8,9 +8,15 @@
   "permissions": [
 	  "management",
     "activeTab",
+    "storage",
     "https://ajax.googleapis.com/"
   ],
-
+ "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+   "js": ["js/jquery-3.1.1.min.js", "js/scriptOpciones.js"]
+}
+],
   "chrome_url_overrides" : {
         "newtab": "newtab.html"
 	},

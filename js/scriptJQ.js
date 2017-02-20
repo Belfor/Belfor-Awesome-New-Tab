@@ -1,11 +1,6 @@
 $(document).ready( function(){
 
 
-  function jsonCallback(json){
-    console.log(json);
-  }
-
-
   $.getJSON("config/config.json",
     function(data){
       console.log(data.urls)

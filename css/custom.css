@@ -8,6 +8,9 @@ body{
    background: rgba(255, 255, 255, 0.5);
    height: 34px;
 }
+.container{
+  margin-top: 20px;
+}
 
 #imagen{
   width: 100%;
