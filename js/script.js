@@ -19,7 +19,9 @@
               document.getElementById("aguanta").innerHTML = "¡¡¡¡¡ES DOMINGO AUN!!!!!";
             }else{
               document.getElementById("aun").innerHTML = "Ya falta menos solo es " + diasSemana[f.getDay()];
+            
             }
+
 
             console.log(document.getElementById("aun").innerHTML);
           }

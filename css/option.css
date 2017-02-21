@@ -12,6 +12,11 @@ body{
   margin-top: 20px;
 }
 
+.h450{
+  height: 450px;
+  overflow-x: auto;
+  white-space: normal;
+}
 
 h4{
   color : white;
@@ -32,25 +37,4 @@ p{
   height: 100%;
   background-size:100% auto;
   background-repeat: no-repeat;
-}
-.panel{
-   background-color: rgba(122, 130, 136, 0.4)!important;
-   padding: 10px;
-}
-
-.panel-transparent .panel{
-     background-color: rgba(122, 130, 136, 0.4)!important;
- }
-
- .panel-transparent .panel-content{
-     background-color: rgba(46, 51, 56, 0.4)!important;
- }
-
-.center {
-     position: absolute;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     margin: auto;
 }
