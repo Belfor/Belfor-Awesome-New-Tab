@@ -17,7 +17,12 @@ body{
   overflow-x: auto;
   white-space: normal;
 }
-
+.panel{
+  padding: 5px;
+}
+.panel-title{
+  padding: 5px;
+}
 h4{
   color : white;
   font-family: 'Lobster', cursive;
