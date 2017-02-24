@@ -53,7 +53,7 @@ $(window).ready(function() {
         chrome.storage.sync.set({
             'urls': urls
         }, function() {
-            load()
+            load();
         });
     })
 
