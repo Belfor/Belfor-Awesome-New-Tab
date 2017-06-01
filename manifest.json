@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Belfor Awensome newtab chrome extension",
+  "name": "Belfor Awesome newtab chrome extension",
   "options_page": "opciones.html",
 
   "description": "Cambia la apariencia de una nueva ventana de chrome",
